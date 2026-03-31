@@ -1,0 +1,105 @@
+{% extends "base.html" %}
+
+{% block title %}演習 - 多機能英単語辞書{% endblock %}
+
+{% block content %}
+<div class="max-w-3xl mx-auto pb-10">
+    <h1 class="text-3xl font-extrabold text-gray-900 mb-8 text-center">単語演習</h1>
+
+    <div id="setup-screen" class="bg-white p-8 rounded-xl shadow-sm border border-gray-200">
+        <h2 class="text-xl font-bold text-gray-800 mb-6 border-b pb-2">出題設定</h2>
+        
+        <div class="mb-6">
+            <label class="block text-gray-700 font-bold mb-2" for="book-select">単語帳を選択</label>
+            <select id="book-select" class="block appearance-none w-full bg-gray-50 border border-gray-300 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-indigo-500 transition">
+                <option value="" disabled selected>読み込み中...</option>
+                {% for book in book_names %}
+                <option value="{{ book }}">{{ book }}</option>
+                {% endfor %}
+            </select>
+        </div>
+
+        <div class="mb-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
+            <span class="block text-gray-700 font-bold mb-3">範囲選択方法</span>
+            <div class="flex gap-4 mb-4">
+                <label class="inline-flex items-center cursor-pointer">
+                    <input type="radio" name="range-type" value="id" class="form-radio text-indigo-600 w-5 h-5" checked>
+                    <span class="ml-2 text-gray-700">単語番号で指定</span>
+                </label>
+                <label class="inline-flex items-center cursor-pointer">
+                    <input type="radio" name="range-type" value="chapter" class="form-radio text-indigo-600 w-5 h-5">
+                    <span class="ml-2 text-gray-700">チャプターで選択</span>
+                </label>
+            </div>
+
+            <div id="range-id-container" class="flex items-center gap-2">
+                <input type="text" id="id-start" placeholder="例: 1" class="w-full bg-white border border-gray-300 py-2 px-3 rounded focus:outline-none focus:border-indigo-500">
+                <span class="text-gray-500 font-bold">〜</span>
+                <input type="text" id="id-end" placeholder="例: 100 or 100-2" class="w-full bg-white border border-gray-300 py-2 px-3 rounded focus:outline-none focus:border-indigo-500">
+            </div>
+
+            <div id="range-chapter-container" class="hidden">
+                <div id="chapter-checkboxes" class="grid grid-cols-1 sm:grid-cols-2 gap-2 max-h-48 overflow-y-auto p-2 bg-white border border-gray-200 rounded">
+                    </div>
+            </div>
+        </div>
+
+        <div class="mb-8">
+            <label class="block text-gray-700 font-bold mb-2" for="question-type">出題形式</label>
+            <select id="question-type" class="block appearance-none w-full bg-gray-50 border border-gray-300 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-indigo-500">
+                <option value="flash-en-ja">暗記カード (英 ➔ 日)</option>
+                <option value="flash-ja-en">暗記カード (日 ➔ 英)</option>
+                <option value="choice-en-ja">4択問題 (英 ➔ 日)</option>
+                <option value="choice-ja-en">4択問題 (日 ➔ 英)</option>
+                <option value="fill-blank">例文穴埋め (スペリング入力)</option>
+            </select>
+        </div>
+
+        <div class="mb-8">
+            <label class="block text-gray-700 font-bold mb-2" for="question-count">出題数 (最大)</label>
+            <select id="question-count" class="block appearance-none w-full bg-gray-50 border border-gray-300 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-indigo-500">
+                <option value="10">10問</option>
+                <option value="20">20問</option>
+                <option value="50">50問</option>
+                <option value="9999">全問 (指定範囲すべて)</option>
+            </select>
+        </div>
+
+        <button id="start-btn" disabled class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-4 rounded-lg shadow transition-colors disabled:opacity-50 disabled:cursor-not-allowed">
+            データ読み込み中...
+        </button>
+    </div>
+
+    <div id="quiz-screen" class="hidden bg-white p-8 rounded-xl shadow-sm border border-gray-200">
+        <div class="flex justify-between items-center mb-6">
+            <span id="progress-text" class="text-sm font-bold text-indigo-600 bg-indigo-100 px-3 py-1 rounded-full"></span>
+            <span id="quiz-mode-text" class="text-sm font-bold text-gray-500 border border-gray-200 px-3 py-1 rounded-full"></span>
+        </div>
+
+        <div id="quiz-dynamic-container" class="min-h-[200px]"></div>
+
+        <div id="feedback-area" class="hidden text-center mt-8 pt-6 border-t border-gray-100">
+            <p id="feedback-text" class="text-xl font-bold mb-4"></p>
+            <button id="next-btn" class="bg-gray-800 hover:bg-gray-900 text-white font-bold py-3 px-8 rounded-lg shadow transition-colors">
+                次の問題へ &rarr;
+            </button>
+        </div>
+    </div>
+
+    <div id="result-screen" class="hidden bg-white p-8 rounded-xl shadow-sm border border-gray-200 text-center">
+        <h2 class="text-2xl font-bold text-gray-800 mb-6">演習結果</h2>
+        <div class="mb-8">
+            <div class="text-6xl font-extrabold text-indigo-600 mb-2" id="score-text"></div>
+            <p class="text-gray-500" id="score-message"></p>
+        </div>
+        <div class="flex justify-center space-x-4">
+            <button id="retry-btn" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-6 rounded-lg shadow transition-colors">
+                条件を変えて再挑戦
+            </button>
+        </div>
+    </div>
+
+</div>
+
+<script src="/js/exercise.js"></script>
+{% endblock %}
