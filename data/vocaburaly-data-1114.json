@@ -1,0 +1,1086 @@
+[
+  {
+    "word": "insulting",
+    "syllables": "in-sult-ing",
+    "pronunciation": {
+      "us": "ɪnˈsʌltɪŋ",
+      "uk": "ɪnˈsʌltɪŋ"
+    },
+    "pos": "adjective",
+    "meanings": [
+      {
+        "id": 1,
+        "translation": "侮辱的な、無礼な",
+        "nuance": "相手の尊厳を傷つけるような、意図的に失礼な態度や発言",
+        "examples": [
+          {
+            "en": "His remarks were deeply insulting to everyone present.",
+            "ja": "彼の発言は、出席していた全員にとって深く侮辱的だった。"
+          }
+        ]
+      }
+    ],
+    "etymology": {
+      "breakdown": "in(上に) + sult(跳ぶ) + ing(形容詞化)",
+      "explanation": "「相手の上に飛びかかる」というイメージから、「攻撃する」「侮辱する」という意味に。"
+    },
+    "derivatives": [
+      { "word": "insult", "pos": "verb/noun", "meaning": "侮辱する、侮辱" },
+      { "word": "insultingly", "pos": "adverb", "meaning": "侮辱的に" }
+    ],
+    "collocations": [
+      "insulting behavior (侮辱的な振る舞い)",
+      "highly insulting (非常に無礼な)"
+    ],
+    "synonyms": ["offensive", "derogatory", "disrespectful", "abusive"],
+    "antonyms": ["complimentary", "respectful", "flattering"],
+    "exam_info": {
+      "importance": "Medium",
+      "notes": "人の感情や態度を表す形容詞として、文脈のトーンを決定づけるキーワードになりやすい。"
+    },
+    "mappings": [
+      { "book": "LEAP", "id": 890, "category": "Part 2" }
+    ],
+    "tags": ["adjective", "CEFR_B2"]
+  },
+  {
+    "word": "insultingly",
+    "syllables": "in-sult-ing-ly",
+    "pronunciation": {
+      "us": "ɪnˈsʌltɪŋli",
+      "uk": "ɪnˈsʌltɪŋli"
+    },
+    "pos": "adverb",
+    "meanings": [
+      {
+        "id": 1,
+        "translation": "侮辱的に、無礼にも",
+        "nuance": "相手を意図的に見下したり、怒らせたりするような方法で",
+        "examples": [
+          {
+            "en": "She behaved insultingly toward the staff.",
+            "ja": "彼女はスタッフに対して侮辱的な態度をとった。"
+          }
+        ]
+      }
+    ],
+    "etymology": {
+      "breakdown": "insulting(侮辱的な) + ly(副詞化)",
+      "explanation": "insultingの副詞形。"
+    },
+    "derivatives": [
+      { "word": "insult", "pos": "verb/noun", "meaning": "侮辱する、侮辱" },
+      { "word": "insulting", "pos": "adjective", "meaning": "侮辱的な" }
+    ],
+    "collocations": [
+      "insultingly low offer (馬鹿にしたような低い提示額)"
+    ],
+    "synonyms": ["offensively", "disrespectfully"],
+    "antonyms": ["respectfully", "politely"],
+    "exam_info": {
+      "importance": "Low",
+      "notes": "派生語として意味が推測できれば十分。"
+    },
+    "mappings": [],
+    "tags": ["adverb", "CEFR_C1"]
+  },
+  {
+    "word": "insuperable",
+    "syllables": "in-su-per-a-ble",
+    "pronunciation": {
+      "us": "ɪnˈsuːpərəbl",
+      "uk": "ɪnˈsuːpərəbl"
+    },
+    "pos": "adjective",
+    "meanings": [
+      {
+        "id": 1,
+        "translation": "打ち勝てない、克服できない",
+        "nuance": "困難や障害が大きすぎて、対処や解決が不可能に思える状態",
+        "examples": [
+          {
+            "en": "They faced insuperable difficulties in finishing the project.",
+            "ja": "彼らはプロジェクトを完了する上で克服できない困難に直面した。"
+          }
+        ]
+      }
+    ],
+    "etymology": {
+      "breakdown": "in(否定) + super(越える) + able(できる)",
+      "explanation": "「越えることができない」から、「克服できない」の意味へ。"
+    },
+    "derivatives": [
+      { "word": "insuperably", "pos": "adverb", "meaning": "克服できないほどに" }
+    ],
+    "collocations": [
+      "insuperable barrier (乗り越えられない壁)",
+      "insuperable obstacle (克服できない障害)"
+    ],
+    "synonyms": ["insurmountable", "unbeatable", "invincible"],
+    "antonyms": ["surmountable", "conquerable"],
+    "exam_info": {
+      "importance": "Medium",
+      "notes": "難関大の長文で、絶望的な状況や極めて困難な課題を描写する際に登場する。"
+    },
+    "mappings": [],
+    "tags": ["adjective", "formal", "CEFR_C2"]
+  },
+  {
+    "word": "insupportable",
+    "syllables": "in-sup-port-a-ble",
+    "pronunciation": {
+      "us": "ˌɪnsəˈpɔːrtəbl",
+      "uk": "ˌɪnsəˈpɔːtəbl"
+    },
+    "pos": "adjective",
+    "meanings": [
+      {
+        "id": 1,
+        "translation": "耐えられない、我慢できない",
+        "nuance": "痛みや悲しみ、あるいは態度などが酷すぎて受け入れられない",
+        "examples": [
+          {
+            "en": "The heat in the factory was almost insupportable.",
+            "ja": "工場内の暑さはほとんど耐えられないほどだった。"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "translation": "正当化できない、支持できない",
+        "nuance": "証拠や理由が不十分で、主張などを裏付けられない",
+        "examples": [
+          {
+            "en": "His argument is completely insupportable by the facts.",
+            "ja": "彼の主張は事実によって全く裏付けられない。"
+          }
+        ]
+      }
+    ],
+    "etymology": {
+      "breakdown": "in(否定) + support(支える・耐える) + able(できる)",
+      "explanation": "「支えることができない」「耐えることができない」の意味。"
+    },
+    "derivatives": [
+      { "word": "insupportably", "pos": "adverb", "meaning": "耐えられないほどに" }
+    ],
+    "collocations": [
+      "insupportable burden (耐えがたい重荷)",
+      "insupportable behavior (許しがたい振る舞い)"
+    ],
+    "synonyms": ["intolerable", "unbearable", "unjustifiable"],
+    "antonyms": ["bearable", "tolerable", "supportable"],
+    "exam_info": {
+      "importance": "Low",
+      "notes": "intolerableやunbearableの類義語として推測可能なレベル。"
+    },
+    "mappings": [],
+    "tags": ["adjective", "formal", "CEFR_C1"]
+  },
+  {
+    "word": "insurance",
+    "syllables": "in-sur-ance",
+    "pronunciation": {
+      "us": "ɪnˈʃʊrəns",
+      "uk": "ɪnˈʃʊərəns"
+    },
+    "pos": "noun",
+    "meanings": [
+      {
+        "id": 1,
+        "translation": "保険、保険金、保険料",
+        "nuance": "将来の不測の事態や損失に備えるための金銭的な保証制度",
+        "examples": [
+          {
+            "en": "Do you have medical insurance?",
+            "ja": "医療保険に入っていますか？"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "translation": "予防手段、安全策",
+        "nuance": "比喩的に、失敗や危険を防ぐための手立て",
+        "examples": [
+          {
+            "en": "I took an umbrella as insurance against the rain.",
+            "ja": "雨に備える安全策として傘を持っていった。"
+          }
+        ]
+      }
+    ],
+    "etymology": {
+      "breakdown": "insure(保証する) + ance(名詞化)",
+      "explanation": "危険を回避し、安全を「確実にする(sure)」ための制度。"
+    },
+    "derivatives": [
+      { "word": "insure", "pos": "verb", "meaning": "保険をかける" },
+      { "word": "insurer", "pos": "noun", "meaning": "保険業者" }
+    ],
+    "collocations": [
+      "health insurance (健康保険)",
+      "life insurance (生命保険)",
+      "insurance policy (保険契約、保険証券)"
+    ],
+    "synonyms": ["protection", "cover", "assurance"],
+    "antonyms": [],
+    "exam_info": {
+      "importance": "High",
+      "notes": "社会や経済をテーマにした長文で必須。life insurance（生命保険）などの複合語がそのまま出題されることが多い。"
+    },
+    "mappings": [
+      { "book": "LEAP", "id": 560, "category": "Part 2" },
+      { "book": "速単", "id": 312, "category": "Lesson 15" }
+    ],
+    "tags": ["noun", "essential", "CEFR_B1"]
+  },
+  {
+    "word": "insure",
+    "syllables": "in-sure",
+    "pronunciation": {
+      "us": "ɪnˈʃʊr",
+      "uk": "ɪnˈʃʊər"
+    },
+    "pos": "verb",
+    "meanings": [
+      {
+        "id": 1,
+        "translation": "〜に保険をかける",
+        "nuance": "損失に備えて契約を結ぶこと",
+        "examples": [
+          {
+            "en": "The painting is insured for a million dollars.",
+            "ja": "その絵には100万ドルの保険がかけられている。"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "translation": "（米）確実にする、保証する",
+        "nuance": "ensureと同義で使われることが多い（主にアメリカ英語）",
+        "examples": [
+          {
+            "en": "Careful planning will insure success.",
+            "ja": "慎重な計画が成功を確実にするだろう。"
+          }
+        ]
+      }
+    ],
+    "etymology": {
+      "breakdown": "in(〜にする) + sure(確実な)",
+      "explanation": "「安全を確実なものにする」という成り立ち。"
+    },
+    "derivatives": [
+      { "word": "insurance", "pos": "noun", "meaning": "保険" },
+      { "word": "insured", "pos": "adjective", "meaning": "保険をかけられた" }
+    ],
+    "collocations": [
+      "insure against (〜に対する保険をかける)",
+      "insure one's life (生命保険をかける)"
+    ],
+    "synonyms": ["protect", "cover", "ensure", "guarantee"],
+    "antonyms": [],
+    "exam_info": {
+      "importance": "Medium",
+      "notes": "ensure（確実にする）、assure（保証する）との意味・用法の違いに注意。"
+    },
+    "mappings": [],
+    "tags": ["verb", "CEFR_B2"]
+  },
+  {
+    "word": "insurer",
+    "syllables": "in-sur-er",
+    "pronunciation": {
+      "us": "ɪnˈʃʊrər",
+      "uk": "ɪnˈʃʊərə"
+    },
+    "pos": "noun",
+    "meanings": [
+      {
+        "id": 1,
+        "translation": "保険会社、保険業者",
+        "nuance": "保険契約を引き受け、万が一の際に保険金を支払う側（法人・組織）",
+        "examples": [
+          {
+            "en": "You need to contact your insurer immediately after the accident.",
+            "ja": "事故後すぐに保険会社に連絡する必要がある。"
+          }
+        ]
+      }
+    ],
+    "etymology": {
+      "breakdown": "insure(保険をかける) + er(〜する人・組織)",
+      "explanation": "保険を引き受ける主体。"
+    },
+    "derivatives": [],
+    "collocations": [
+      "health insurer (健康保険会社)",
+      "major insurer (大手保険会社)"
+    ],
+    "synonyms": ["underwriter", "insurance company"],
+    "antonyms": ["insured (被保険者)"],
+    "exam_info": {
+      "importance": "Medium",
+      "notes": "経済やビジネス系の長文で登場する。the insured（被保険者）との対比で理解しておくこと。"
+    },
+    "mappings": [],
+    "tags": ["noun", "business", "CEFR_C1"]
+  },
+  {
+    "word": "insured",
+    "syllables": "in-sured",
+    "pronunciation": {
+      "us": "ɪnˈʃʊrd",
+      "uk": "ɪnˈʃʊəd"
+    },
+    "pos": "adjective / noun",
+    "meanings": [
+      {
+        "id": 1,
+        "translation": "（形容詞）保険をかけられた",
+        "nuance": "保険によってカバーされている状態",
+        "examples": [
+          {
+            "en": "Are your personal belongings insured against theft?",
+            "ja": "あなたの私物は盗難保険にかけられていますか？"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "translation": "（名詞）被保険者",
+        "nuance": "the insured の形で、保険の対象となっている人",
+        "examples": [
+          {
+            "en": "The policy pays out to the insured in the event of disability.",
+            "ja": "その保険契約は、障害が生じた際に被保険者に支払われる。"
+          }
+        ]
+      }
+    ],
+    "etymology": {
+      "breakdown": "insure(保険をかける) + d(過去分詞)",
+      "explanation": "insureの過去分詞形が形容詞・名詞化したもの。"
+    },
+    "derivatives": [],
+    "collocations": [
+      "the insured (被保険者)",
+      "fully insured (十分な保険がかけられた)"
+    ],
+    "synonyms": ["covered", "protected"],
+    "antonyms": ["uninsured (無保険の)", "insurer (保険会社)"],
+    "exam_info": {
+      "importance": "Medium",
+      "notes": "the + 過去分詞で「〜された人々」の意味になる用法（the insured = 被保険者）に注意。"
+    },
+    "mappings": [],
+    "tags": ["adjective", "noun", "CEFR_C1"]
+  },
+  {
+    "word": "insurgency",
+    "syllables": "in-sur-gen-cy",
+    "pronunciation": {
+      "us": "ɪnˈsɜːrdʒənsi",
+      "uk": "ɪnˈsɜːdʒənsi"
+    },
+    "pos": "noun",
+    "meanings": [
+      {
+        "id": 1,
+        "translation": "暴動、反乱",
+        "nuance": "通常、政府や占領軍に対する、武装した反抗（革命に至らない規模のもの）",
+        "examples": [
+          {
+            "en": "The government is trying to put down the armed insurgency.",
+            "ja": "政府は武装反乱を鎮圧しようとしている。"
+          }
+        ]
+      }
+    ],
+    "etymology": {
+      "breakdown": "in(対して) + surgere(立ち上がる) + ency(名詞化)",
+      "explanation": "権力に対して「立ち上がる」ことから。"
+    },
+    "derivatives": [
+      { "word": "insurgent", "pos": "noun/adjective", "meaning": "反乱兵、反乱を起こした" }
+    ],
+    "collocations": [
+      "armed insurgency (武装反乱)",
+      "counter-insurgency (暴動鎮圧)"
+    ],
+    "synonyms": ["rebellion", "uprising", "revolt", "mutiny"],
+    "antonyms": ["obedience", "submission", "peace"],
+    "exam_info": {
+      "importance": "Medium",
+      "notes": "国際政治や歴史の長文で登場する。rebellionとほぼ同義。"
+    },
+    "mappings": [],
+    "tags": ["noun", "formal", "CEFR_C1"]
+  },
+  {
+    "word": "insurgence",
+    "syllables": "in-sur-gence",
+    "pronunciation": {
+      "us": "ɪnˈsɜːrdʒəns",
+      "uk": "ɪnˈsɜːdʒəns"
+    },
+    "pos": "noun",
+    "meanings": [
+      {
+        "id": 1,
+        "translation": "暴動、反乱",
+        "nuance": "insurgencyの同義語だが、やや古風または使用頻度が低い",
+        "examples": [
+          {
+            "en": "There was a brief insurgence against the local authorities.",
+            "ja": "地方当局に対する短期間の暴動があった。"
+          }
+        ]
+      }
+    ],
+    "etymology": {
+      "breakdown": "in(対して) + surgere(立ち上がる) + ence(名詞化)",
+      "explanation": "insurgencyと同じ語源。"
+    },
+    "derivatives": [
+      { "word": "insurgent", "pos": "noun/adjective", "meaning": "反乱兵、反乱を起こした" }
+    ],
+    "collocations": [],
+    "synonyms": ["insurgency", "rebellion", "uprising"],
+    "antonyms": ["submission"],
+    "exam_info": {
+      "importance": "Low",
+      "notes": "一般的にはinsurgencyの方が好まれるため、読解で意味が取れれば問題ない。"
+    },
+    "mappings": [],
+    "tags": ["noun", "rare", "CEFR_C2"]
+  },
+  {
+    "word": "insurgent",
+    "syllables": "in-sur-gent",
+    "pronunciation": {
+      "us": "ɪnˈsɜːrdʒənt",
+      "uk": "ɪnˈsɜːdʒənt"
+    },
+    "pos": "noun / adjective",
+    "meanings": [
+      {
+        "id": 1,
+        "translation": "（名詞）反乱兵、暴徒",
+        "nuance": "正規軍ではなく、政府に反旗を翻して戦う人々",
+        "examples": [
+          {
+            "en": "The insurgents attacked the military base at dawn.",
+            "ja": "反乱兵たちは夜明けに軍事基地を攻撃した。"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "translation": "（形容詞）反乱を起こした、暴動の",
+        "nuance": "既存の権威に対して反抗的な",
+        "examples": [
+          {
+            "en": "The insurgent forces have taken control of the capital.",
+            "ja": "反乱軍が首都を制圧した。"
+          }
+        ]
+      }
+    ],
+    "etymology": {
+      "breakdown": "in(対して) + surgere(立ち上がる) + ent(形容詞・名詞化)",
+      "explanation": "権力に立ち向かう人。"
+    },
+    "derivatives": [
+      { "word": "insurgency", "pos": "noun", "meaning": "暴動" }
+    ],
+    "collocations": [
+      "insurgent group (反政府武装勢力)",
+      "insurgent attacks (反乱兵による攻撃)"
+    ],
+    "synonyms": ["rebel", "revolutionary", "mutineer"],
+    "antonyms": ["loyalist"],
+    "exam_info": {
+      "importance": "Medium",
+      "notes": "国際ニュースや政治関連の英文で頻繁に登場する。rebelと同義で扱われる。"
+    },
+    "mappings": [],
+    "tags": ["noun", "adjective", "formal", "CEFR_C1"]
+  },
+  {
+    "word": "insurmountable",
+    "syllables": "in-sur-mount-a-ble",
+    "pronunciation": {
+      "us": "ˌɪnsərˈmaʊntəbl",
+      "uk": "ˌɪnsəˈmaʊntəbl"
+    },
+    "pos": "adjective",
+    "meanings": [
+      {
+        "id": 1,
+        "translation": "打ち勝てない、克服できない",
+        "nuance": "問題や困難が大きすぎて、解決や乗り越えることが不可能である様子",
+        "examples": [
+          {
+            "en": "The language barrier seemed an insurmountable obstacle at first.",
+            "ja": "最初は、言葉の壁が克服できない障害に思えた。"
+          }
+        ]
+      }
+    ],
+    "etymology": {
+      "breakdown": "in(否定) + sur(上に) + mount(登る) + able(できる)",
+      "explanation": "「上に登って越えることができない」というイメージから。"
+    },
+    "derivatives": [
+      { "word": "insurmountably", "pos": "adverb", "meaning": "克服できないほどに" }
+    ],
+    "collocations": [
+      "insurmountable problem (解決不可能な問題)",
+      "insurmountable barrier (越えられない壁)"
+    ],
+    "synonyms": ["insuperable", "unbeatable", "overwhelming"],
+    "antonyms": ["surmountable", "conquerable", "manageable"],
+    "exam_info": {
+      "importance": "Medium",
+      "notes": "insuperableの類義語。長文読解において、主人公や研究者が直面する巨大な壁を表現する際によく使われる。"
+    },
+    "mappings": [],
+    "tags": ["adjective", "CEFR_C1"]
+  },
+  {
+    "word": "insurrection",
+    "syllables": "in-sur-rec-tion",
+    "pronunciation": {
+      "us": "ˌɪnsəˈrekʃn",
+      "uk": "ˌɪnsəˈrekʃn"
+    },
+    "pos": "noun",
+    "meanings": [
+      {
+        "id": 1,
+        "translation": "暴動、反乱",
+        "nuance": "通常、政府や支配者に対する大規模な暴力的な反抗。insurgencyよりも突発的・暴力的なニュアンスを含むことがある。",
+        "examples": [
+          {
+            "en": "The peasants led an armed insurrection against the king.",
+            "ja": "農民たちは王に対する武装反乱を起こした。"
+          }
+        ]
+      }
+    ],
+    "etymology": {
+      "breakdown": "in(対して) + sub(下から) + regere(まっすぐにする/支配する)から派生したsurgere(立ち上がる) + tion(名詞化)",
+      "explanation": "権力に対して立ち上がる行動。"
+    },
+    "derivatives": [
+      { "word": "insurrectionist", "pos": "noun", "meaning": "反乱者" },
+      { "word": "insurrectionary", "pos": "adjective", "meaning": "反乱の" }
+    ],
+    "collocations": [
+      "armed insurrection (武装反乱)",
+      "incite an insurrection (暴動を扇動する)"
+    ],
+    "synonyms": ["rebellion", "revolt", "uprising", "mutiny"],
+    "antonyms": ["peace", "compliance", "obedience"],
+    "exam_info": {
+      "importance": "Medium",
+      "notes": "歴史をテーマにした英文で、rebellionなどの言い換えとして出題される。"
+    },
+    "mappings": [],
+    "tags": ["noun", "formal", "CEFR_C2"]
+  },
+  {
+    "word": "insurrectionist",
+    "syllables": "in-sur-rec-tion-ist",
+    "pronunciation": {
+      "us": "ˌɪnsəˈrekʃənɪst",
+      "uk": "ˌɪnsəˈrekʃənɪst"
+    },
+    "pos": "noun",
+    "meanings": [
+      {
+        "id": 1,
+        "translation": "反乱者、暴動指導者",
+        "nuance": "暴動や反乱を先導したり、参加したりする人物",
+        "examples": [
+          {
+            "en": "The authorities arrested several key insurrectionists.",
+            "ja": "当局は数名の主要な反乱者を逮捕した。"
+          }
+        ]
+      }
+    ],
+    "etymology": {
+      "breakdown": "insurrection(反乱) + ist(〜する人)",
+      "explanation": "反乱に加担する人。"
+    },
+    "derivatives": [],
+    "collocations": [],
+    "synonyms": ["rebel", "insurgent", "mutineer"],
+    "antonyms": ["loyalist"],
+    "exam_info": {
+      "importance": "Low",
+      "notes": "insurrectionの意味が分かれば派生として推測可能。"
+    },
+    "mappings": [],
+    "tags": ["noun", "formal"]
+  },
+  {
+    "word": "insurrectionary",
+    "syllables": "in-sur-rec-tion-ar-y",
+    "pronunciation": {
+      "us": "ˌɪnsəˈrekʃəneri",
+      "uk": "ˌɪnsəˈrekʃənəri"
+    },
+    "pos": "adjective",
+    "meanings": [
+      {
+        "id": 1,
+        "translation": "反乱の、暴動の",
+        "nuance": "反乱に関連する、あるいは反乱を引き起こすような",
+        "examples": [
+          {
+            "en": "The police uncovered an insurrectionary plot.",
+            "ja": "警察は反乱の陰謀を摘発した。"
+          }
+        ]
+      }
+    ],
+    "etymology": {
+      "breakdown": "insurrection(反乱) + ary(形容詞化)",
+      "explanation": "反乱に関連するさま。"
+    },
+    "derivatives": [],
+    "collocations": [
+      "insurrectionary movement (反乱運動)"
+    ],
+    "synonyms": ["rebellious", "mutinous", "insurgent"],
+    "antonyms": ["loyal", "submissive"],
+    "exam_info": {
+      "importance": "Low",
+      "notes": "文脈から反乱関連の形容詞であると見抜ければよい。"
+    },
+    "mappings": [],
+    "tags": ["adjective", "formal"]
+  },
+  {
+    "word": "int.",
+    "syllables": "int.",
+    "pronunciation": {
+      "us": "ɪnt",
+      "uk": "ɪnt"
+    },
+    "pos": "abbreviation",
+    "meanings": [
+      {
+        "id": 1,
+        "translation": "（略語）international（国際的な）, internal（内部の）, interest（利子）, interjection（間投詞）など",
+        "nuance": "文脈によって様々な単語の省略形として使われる。辞書では主に間投詞、金融では利子を表す。",
+        "examples": [
+          {
+            "en": "The bank charges 5% int. on the loan.",
+            "ja": "銀行はそのローンに5%の利子(interest)を課す。"
+          },
+          {
+            "en": "Look up the word labeled as 'int.' in the dictionary.",
+            "ja": "辞書で「間投詞(interjection)」と記された単語を引きなさい。"
+          }
+        ]
+      }
+    ],
+    "etymology": {
+      "breakdown": "各単語の頭文字",
+      "explanation": "利便性のために短縮された形。"
+    },
+    "derivatives": [],
+    "collocations": [],
+    "synonyms": [],
+    "antonyms": [],
+    "exam_info": {
+      "importance": "Low",
+      "notes": "略語であるため、文脈（辞書表記なのか、金融記事なのかなど）から元の単語を推測することが求められる。"
+    },
+    "mappings": [],
+    "tags": ["abbreviation"]
+  },
+  {
+    "word": "intact",
+    "syllables": "in-tact",
+    "pronunciation": {
+      "us": "ɪnˈtækt",
+      "uk": "ɪnˈtækt"
+    },
+    "pos": "adjective",
+    "meanings": [
+      {
+        "id": 1,
+        "translation": "無傷の、手つかずの、完全なままで",
+        "nuance": "ダメージを受けておらず、元の状態を保っていること",
+        "examples": [
+          {
+            "en": "The fragile package arrived completely intact.",
+            "ja": "その壊れやすい荷物は完全に無傷で到着した。"
+          },
+          {
+            "en": "His reputation survived the scandal intact.",
+            "ja": "彼の名声はスキャンダルを生き延び、無傷のままだった。"
+          }
+        ]
+      }
+    ],
+    "etymology": {
+      "breakdown": "in(否定) + tact(触れる)",
+      "explanation": "「（害を及ぼすものに）触れられていない」ことから、「無傷の」という意味に。"
+    },
+    "derivatives": [],
+    "collocations": [
+      "remain intact (無傷のままである)",
+      "survive intact (無傷で生き残る)"
+    ],
+    "synonyms": ["undamaged", "unharmed", "unbroken", "whole"],
+    "antonyms": ["damaged", "broken", "flawed"],
+    "exam_info": {
+      "importance": "High",
+      "notes": "remain intact の形でよく使われる。物理的な状態だけでなく、名声や伝統などが損なわれていない様子を表す際にも頻出。"
+    },
+    "mappings": [
+      { "book": "LEAP", "id": 1024, "category": "Part 3" }
+    ],
+    "tags": ["adjective", "essential", "CEFR_C1"]
+  },
+  {
+    "word": "intaglio",
+    "syllables": "in-tal-yo",
+    "pronunciation": {
+      "us": "ɪnˈtælioʊ",
+      "uk": "ɪnˈtæliəʊ"
+    },
+    "pos": "noun",
+    "meanings": [
+      {
+        "id": 1,
+        "translation": "沈み彫り、インタリオ",
+        "nuance": "宝石や金属などの表面を彫り込んで模様を凹ませる技法。カメオ（浮き彫り）の逆。",
+        "examples": [
+          {
+            "en": "The ring features a beautiful intaglio of a Roman emperor.",
+            "ja": "その指輪には、ローマ皇帝の美しい沈み彫りが施されている。"
+          }
+        ]
+      }
+    ],
+    "etymology": {
+      "breakdown": "イタリア語 intagliare (彫り込む) から",
+      "explanation": "in(中に) + tagliare(切る)。"
+    },
+    "derivatives": [],
+    "collocations": [
+      "intaglio printing (凹版印刷)"
+    ],
+    "synonyms": ["engraving", "incised carving"],
+    "antonyms": ["cameo", "relief"],
+    "exam_info": {
+      "importance": "Low",
+      "notes": "美術史や印刷技術に関する専門的な文章以外では滅多に見かけない単語。"
+    },
+    "mappings": [],
+    "tags": ["noun", "art", "specialized"]
+  },
+  {
+    "word": "intake",
+    "syllables": "in-take",
+    "pronunciation": {
+      "us": "ˈɪnteɪk",
+      "uk": "ˈɪnteɪk"
+    },
+    "pos": "noun",
+    "meanings": [
+      {
+        "id": 1,
+        "translation": "摂取（量）、取り入れること",
+        "nuance": "食べ物や空気、情報などを体やシステムの中に取り込むこと",
+        "examples": [
+          {
+            "en": "You should reduce your daily intake of sugar.",
+            "ja": "1日の砂糖の摂取量を減らすべきです。"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "translation": "受け入れ人数、入学者数",
+        "nuance": "学校や組織に新しく入ってくる人々の数",
+        "examples": [
+          {
+            "en": "The university's annual intake has increased this year.",
+            "ja": "その大学の今年の年間入学者数は増加した。"
+          }
+        ]
+      }
+    ],
+    "etymology": {
+      "breakdown": "in(中へ) + take(取る)",
+      "explanation": "文字通り「中に取り込む」こと。"
+    },
+    "derivatives": [],
+    "collocations": [
+      "food intake (食物摂取量)",
+      "calorie intake (カロリー摂取量)",
+      "water intake (水分摂取量)"
+    ],
+    "synonyms": ["consumption", "absorption", "admission"],
+    "antonyms": ["output", "emission"],
+    "exam_info": {
+      "importance": "High",
+      "notes": "健康・医学系の長文で calorie intake などとして頻出。グラフや表の読み取り問題でもキーワードになる。"
+    },
+    "mappings": [
+      { "book": "速単", "id": 646, "category": "Chapter 26" }
+    ],
+    "tags": ["noun", "essential", "CEFR_C1"]
+  },
+  {
+    "word": "intangible",
+    "syllables": "in-tan-gi-ble",
+    "pronunciation": {
+      "us": "ɪnˈtændʒəbl",
+      "uk": "ɪnˈtændʒəbl"
+    },
+    "pos": "adjective",
+    "meanings": [
+      {
+        "id": 1,
+        "translation": "触れることができない、無形の、漠然とした",
+        "nuance": "物理的な実体がなく、評価や定義が難しいもの（価値、雰囲気、資産など）",
+        "examples": [
+          {
+            "en": "Goodwill and brand reputation are intangible assets.",
+            "ja": "のれん（顧客の信用）やブランドの評判は無形資産である。"
+          },
+          {
+            "en": "She felt an intangible sense of anxiety.",
+            "ja": "彼女は漠然とした不安を感じた。"
+          }
+        ]
+      }
+    ],
+    "etymology": {
+      "breakdown": "in(否定) + tang(触れる) + ible(できる)",
+      "explanation": "「触れることができない」から無形のものであることを表す。"
+    },
+    "derivatives": [
+      { "word": "intangibly", "pos": "adverb", "meaning": "無形に、触れられないほどに" },
+      { "word": "intangibility", "pos": "noun", "meaning": "無形であること" }
+    ],
+    "collocations": [
+      "intangible cultural heritage (無形文化遺産)",
+      "intangible assets (無形資産)"
+    ],
+    "synonyms": ["impalpable", "invisible", "abstract", "ethereal"],
+    "antonyms": ["tangible", "physical", "concrete"],
+    "exam_info": {
+      "importance": "High",
+      "notes": "文化（無形文化遺産）やビジネス（無形資産）のテーマで極めて重要。tangible（触れられる、有形の）との対比で覚える。"
+    },
+    "mappings": [
+      { "book": "LEAP", "id": 1502, "category": "Part 4" }
+    ],
+    "tags": ["adjective", "critical", "CEFR_C1"]
+  },
+  {
+    "word": "intangibly",
+    "syllables": "in-tan-gi-bly",
+    "pronunciation": {
+      "us": "ɪnˈtændʒəbli",
+      "uk": "ɪnˈtændʒəbli"
+    },
+    "pos": "adverb",
+    "meanings": [
+      {
+        "id": 1,
+        "translation": "無形に、触れられないほどに、漠然と",
+        "nuance": "物理的に捉えられないような形で、明確に説明できない様子で",
+        "examples": [
+          {
+            "en": "The atmosphere in the room changed intangibly.",
+            "ja": "部屋の雰囲気が漠然と（捉えどころのない形で）変化した。"
+          }
+        ]
+      }
+    ],
+    "etymology": {
+      "breakdown": "intangible(無形の) + ly(副詞化)",
+      "explanation": "intangibleの副詞形。"
+    },
+    "derivatives": [
+      { "word": "intangible", "pos": "adjective", "meaning": "無形の" }
+    ],
+    "collocations": [],
+    "synonyms": ["impalpably", "abstractly"],
+    "antonyms": ["tangibly", "concretely"],
+    "exam_info": {
+      "importance": "Low",
+      "notes": "形容詞のintangibleをしっかり押さえておけば対応可能。"
+    },
+    "mappings": [],
+    "tags": ["adverb", "CEFR_C2"]
+  },
+  {
+    "word": "intarsia",
+    "syllables": "in-tar-si-a",
+    "pronunciation": {
+      "us": "ɪnˈtɑːrsiə",
+      "uk": "ɪnˈtɑːsiə"
+    },
+    "pos": "noun",
+    "meanings": [
+      {
+        "id": 1,
+        "translation": "インタルシア、はめ木細工、編み込み模様",
+        "nuance": "異なる色や種類の木片をはめ込んで模様を作る木工技法、または複数の色の糸を編み込んで模様を作る編み物の技法",
+        "examples": [
+          {
+            "en": "She knitted a sweater with a beautiful floral intarsia design.",
+            "ja": "彼女は美しい花柄のインタルシア模様のセーターを編んだ。"
+          }
+        ]
+      }
+    ],
+    "etymology": {
+      "breakdown": "イタリア語 intarsiare (象嵌する、はめ込む) から",
+      "explanation": "工芸・手芸の専門用語として英語に取り入れられた。"
+    },
+    "derivatives": [],
+    "collocations": [
+      "intarsia knitting (インタルシア編み)",
+      "intarsia woodwork (はめ木細工)"
+    ],
+    "synonyms": ["inlay", "marquetry"],
+    "antonyms": [],
+    "exam_info": {
+      "importance": "Low",
+      "notes": "工芸やファッションに関する極めて専門的な語彙。一般の大学受験で問われることはない。"
+    },
+    "mappings": [],
+    "tags": ["noun", "art", "crafts", "specialized"]
+  },
+  {
+    "word": "integer",
+    "syllables": "in-te-ger",
+    "pronunciation": {
+      "us": "ˈɪntɪdʒər",
+      "uk": "ˈɪntɪdʒə"
+    },
+    "pos": "noun",
+    "meanings": [
+      {
+        "id": 1,
+        "translation": "整数",
+        "nuance": "分数や小数を含まない完全な数（..., -2, -1, 0, 1, 2, ...）",
+        "examples": [
+          {
+            "en": "X and Y are both positive integers.",
+            "ja": "XとYはともに正の整数である。"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "translation": "完全体、統一体",
+        "nuance": "欠けているところのない一つの全体（古風な用法）",
+        "examples": [
+          {
+            "en": "Society is an integer made up of many individuals.",
+            "ja": "社会は多くの個人から成る一つの完全体である。"
+          }
+        ]
+      }
+    ],
+    "etymology": {
+      "breakdown": "in(否定) + teg-(触れる) + er(もの)",
+      "explanation": "「触れられていない」ことから、「手つかずの完全なもの」＝「分割されていない数（整数）」という意味になった。"
+    },
+    "derivatives": [
+      { "word": "integral", "pos": "adjective", "meaning": "不可欠な、積分の" }
+    ],
+    "collocations": [
+      "positive integer (正の整数)",
+      "negative integer (負の整数)"
+    ],
+    "synonyms": ["whole number"],
+    "antonyms": ["fraction (分数)", "decimal (小数)"],
+    "exam_info": {
+      "importance": "Medium",
+      "notes": "理系の英語長文や、英語で数学の問題を読む際に必須の単語。whole numberとほぼ同義。"
+    },
+    "mappings": [],
+    "tags": ["noun", "math", "CEFR_C1"]
+  },
+  {
+    "word": "integral",
+    "syllables": "in-te-gral",
+    "pronunciation": {
+      "us": "ˈɪntɪɡrəl",
+      "uk": "ˈɪntɪɡrəl"
+    },
+    "pos": "adjective / noun",
+    "meanings": [
+      {
+        "id": 1,
+        "translation": "（形容詞）不可欠な、必須の",
+        "nuance": "全体を構成する上で、なくてはならない重要な部分であること",
+        "examples": [
+          {
+            "en": "Vegetables are an integral part of a healthy diet.",
+            "ja": "野菜は健康的な食生活に不可欠な一部である。"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "translation": "（形容詞）完全な、欠けるところのない",
+        "nuance": "すべての構成要素が揃っている状態",
+        "examples": [
+          {
+            "en": "The building survived the earthquake as an integral whole.",
+            "ja": "その建物は地震を生き延び、完全な全体を保った。"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "translation": "（形容詞・名詞）積分の、積分",
+        "nuance": "数学用語として微分(differential)と対になる概念",
+        "examples": [
+          {
+            "en": "He is studying integral calculus.",
+            "ja": "彼は積分学を学んでいる。"
+          }
+        ]
+      }
+    ],
+    "etymology": {
+      "breakdown": "integer(完全なもの・整数) + al(形容詞化)",
+      "explanation": "完全体をなすための要素であることから、「不可欠な」という意味に発展した。"
+    },
+    "derivatives": [
+      { "word": "integrate", "pos": "verb", "meaning": "統合する" },
+      { "word": "integration", "pos": "noun", "meaning": "統合、積分" }
+    ],
+    "collocations": [
+      "an integral part of ~ (〜の不可欠な一部)",
+      "integral role (不可欠な役割)"
+    ],
+    "synonyms": ["essential", "fundamental", "vital", "indispensable"],
+    "antonyms": ["incidental", "nonessential", "fractional"],
+    "exam_info": {
+      "importance": "High",
+      "notes": "an integral part of ~ というフレーズで超頻出。文脈によっては数学の「積分」を指すこともある点に注意。"
+    },
+    "mappings": [
+      { "book": "LEAP", "id": 1185, "category": "Part 3" }
+    ],
+    "tags": ["adjective", "critical", "academic", "CEFR_C1"]
+  }
+]
