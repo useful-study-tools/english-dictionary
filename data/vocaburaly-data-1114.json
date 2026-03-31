@@ -1078,9 +1078,7 @@
       "importance": "High",
       "notes": "an integral part of ~ というフレーズで超頻出。文脈によっては数学の「積分」を指すこともある点に注意。"
     },
-    "mappings": [
-      { "book": "LEAP", "id": 1185, "category": "Part 3" }
-    ],
+    "mappings": [],
     "tags": ["adjective", "critical", "academic", "CEFR_C1"]
   }
 ]
