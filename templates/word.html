@@ -1,0 +1,192 @@
+{% extends "base.html" %}
+
+{% block title %}{{ word.word }} - 多機能英単語辞書{% endblock %}
+
+{% block content %}
+<div class="max-w-4xl mx-auto pb-10">
+
+    <div class="mb-4">
+        <a href="/" class="text-indigo-600 hover:text-indigo-800 text-sm font-semibold flex items-center">
+            &larr; トップページに戻る
+        </a>
+    </div>
+
+    <div class="bg-white p-6 md:p-8 rounded-xl shadow-sm border border-gray-200 mb-6">
+        <div class="flex flex-col md:flex-row md:items-end justify-between border-b border-gray-100 pb-4 mb-4">
+            <div>
+                <h1 class="text-4xl md:text-5xl font-extrabold text-gray-900 tracking-tight">{{ word.word }}</h1>
+                <div class="mt-2 text-gray-500 font-mono text-sm">
+                    <span class="mr-4">音節: {{ word.syllables }}</span>
+                    {% if word.pronunciation %}
+                    <span class="mr-3">US: {{ word.pronunciation.us }}</span>
+                    <span>UK: {{ word.pronunciation.uk }}</span>
+                    {% endif %}
+                </div>
+            </div>
+            <div class="mt-4 md:mt-0 flex flex-wrap gap-2">
+                <span class="px-3 py-1 bg-indigo-100 text-indigo-800 text-sm font-bold rounded-full border border-indigo-200">
+                    {{ word.pos }}
+                </span>
+                {% for tag in word.tags %}
+                <span class="px-3 py-1 bg-gray-100 text-gray-600 text-sm rounded-full border border-gray-200">
+                    {{ tag }}
+                </span>
+                {% endfor %}
+            </div>
+        </div>
+
+        {% if word.etymology %}
+        <div class="bg-amber-50 rounded-lg p-4 border border-amber-100">
+            <h3 class="text-sm font-bold text-amber-800 mb-1 flex items-center">
+                <span class="mr-1">💡</span> 語源・イメージ
+            </h3>
+            <div class="font-mono text-amber-900 bg-amber-100 inline-block px-2 py-1 rounded text-sm mb-2 font-bold">
+                {{ word.etymology.breakdown }}
+            </div>
+            <p class="text-amber-800 text-sm leading-relaxed">
+                {{ word.etymology.explanation }}
+            </p>
+        </div>
+        {% endif %}
+    </div>
+
+    <div class="mb-8">
+        <h2 class="text-2xl font-bold text-gray-800 mb-4 pl-2 border-l-4 border-indigo-600">意味・用法</h2>
+        <div class="space-y-4">
+            {% for m in word.meanings %}
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-200 transition hover:shadow-md">
+                <div class="flex items-center mb-2">
+                    <span class="bg-indigo-600 text-white w-6 h-6 rounded-full inline-flex items-center justify-center font-bold text-sm mr-3">
+                        {{ loop.index }}
+                    </span>
+                    <h3 class="text-xl font-bold text-gray-900">{{ m.translation }}</h3>
+                </div>
+                
+                {% if m.nuance %}
+                <p class="text-sm text-gray-600 bg-gray-50 p-3 rounded-lg border border-gray-100 mb-4 ml-9">
+                    <span class="font-semibold text-gray-500 mr-1">ニュアンス:</span> {{ m.nuance }}
+                </p>
+                {% endif %}
+
+                <div class="ml-9 space-y-3">
+                    {% for ex in m.examples %}
+                    <div class="border-l-2 border-indigo-200 pl-4 py-1">
+                        <p class="text-gray-800 font-medium text-lg leading-relaxed">{{ ex.en }}</p>
+                        <p class="text-gray-500 text-sm mt-1">{{ ex.ja }}</p>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+        
+        {% if word.collocations %}
+        <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-200">
+            <h2 class="text-lg font-bold text-gray-800 mb-4 border-b pb-2">頻出コロケーション</h2>
+            <ul class="space-y-2">
+                {% for coll in word.collocations %}
+                <li class="flex items-start">
+                    <span class="text-indigo-500 mr-2">✓</span>
+                    <span class="text-gray-700 font-medium">{{ coll }}</span>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endif %}
+
+        <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-200">
+            <h2 class="text-lg font-bold text-gray-800 mb-4 border-b pb-2">試験情報・収録データ</h2>
+            
+            {% if word.exam_info %}
+            <div class="mb-4">
+                <div class="flex items-center mb-1">
+                    <span class="text-sm font-semibold text-gray-500 mr-2">重要度:</span>
+                    <span class="px-2 py-0.5 bg-red-100 text-red-700 text-xs font-bold rounded">{{ word.exam_info.importance }}</span>
+                </div>
+                <p class="text-sm text-gray-600 bg-gray-50 p-2 rounded border border-gray-100">
+                    {{ word.exam_info.notes }}
+                </p>
+            </div>
+            {% endif %}
+
+            {% if word.mappings %}
+            <div>
+                <span class="text-sm font-semibold text-gray-500 block mb-2">収録単語帳:</span>
+                <div class="flex flex-col gap-2">
+                    {% for map in word.mappings %}
+                    <a href="/books/{{ map.book }}.html" class="inline-flex justify-between items-center text-sm px-3 py-2 bg-indigo-50 text-indigo-700 rounded hover:bg-indigo-100 transition">
+                        <span class="font-bold">{{ map.book }}</span>
+                        <span class="text-xs text-indigo-500">{{ map.category }} (No.{{ map.id }})</span>
+                    </a>
+                    {% endfor %}
+                </div>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+
+    <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-200">
+        <h2 class="text-lg font-bold text-gray-800 mb-4 border-b pb-2">関連語</h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {% if word.synonyms %}
+            <div>
+                <h3 class="text-sm font-bold text-emerald-600 mb-2">類義語 (Synonyms)</h3>
+                <div class="flex flex-wrap gap-2">
+                    {% for syn in word.synonyms %}
+                    <a href="/words/{{ syn }}.html" class="px-2 py-1 bg-emerald-50 text-emerald-700 text-sm rounded border border-emerald-100 hover:bg-emerald-100">
+                        {{ syn }}
+                    </a>
+                    {% endfor %}
+                </div>
+            </div>
+            {% endif %}
+
+            {% if word.antonyms %}
+            <div>
+                <h3 class="text-sm font-bold text-rose-600 mb-2">対義語 (Antonyms)</h3>
+                <div class="flex flex-wrap gap-2">
+                    {% for ant in word.antonyms %}
+                    <a href="/words/{{ ant }}.html" class="px-2 py-1 bg-rose-50 text-rose-700 text-sm rounded border border-rose-100 hover:bg-rose-100">
+                        {{ ant }}
+                    </a>
+                    {% endfor %}
+                </div>
+            </div>
+            {% endif %}
+
+            {% if word.derivatives %}
+            <div class="md:col-span-3 mt-2 pt-4 border-t border-gray-100">
+                <h3 class="text-sm font-bold text-gray-700 mb-3">派生語 (Derivatives)</h3>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-sm text-left">
+                        <thead class="bg-gray-50 text-gray-500">
+                            <tr>
+                                <th class="px-4 py-2 rounded-tl-lg">単語</th>
+                                <th class="px-4 py-2">品詞</th>
+                                <th class="px-4 py-2 rounded-tr-lg">意味</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for deriv in word.derivatives %}
+                            <tr class="border-b border-gray-50 last:border-0 hover:bg-gray-50">
+                                <td class="px-4 py-2 font-bold text-indigo-600">
+                                    <a href="/words/{{ deriv.word }}.html" class="hover:underline">{{ deriv.word }}</a>
+                                </td>
+                                <td class="px-4 py-2 text-gray-500">{{ deriv.pos }}</td>
+                                <td class="px-4 py-2 text-gray-700">{{ deriv.meaning }}</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+
+</div>
+{% endblock %}
